@@ -26,3 +26,11 @@ RULE halogenated
     CUTOFF 5
     NEIGHBOURHOOD 10
     CONDITIONS Trp_halogenase
+
+RULE P-ABNO_AurF
+    COMMENT P-aminobenzoate N-oxygenase, such as AurF are non-heme di-iron monooxygenase, ivolved in p-Nitrobenzoic
+            acid and azoxy compound biosynthesis
+    CUTOFF 5
+    NEIGHBOURHOOD 10
+    CONDITIONS AurF
+
